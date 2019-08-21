@@ -12,7 +12,7 @@ checkScope()
 
 function printMany(str) {
     const SENTENCE = str + " practice 2019"
-    for(let i = 8; i < str.length; i++){
+    for(let i = 8; i < 10; i++){
         console.log(SENTENCE)
     }
 }
@@ -29,3 +29,19 @@ function editFunction(){
 editFunction()
 
 console.log(s)
+
+
+
+   function checkPalindrom(palindrom){
+
+    for( var i = palindrom.length; i > 0; i-- )
+    {
+        if( palindrom[i] = palindrom.charAt(palindrom.length)-1 )
+        {
+            document.write('the word is palindrome.');
+        }else{
+            document.write('the word is not palindrome!');
+        }
+    }
+}
+checkPalindrom('wordthatwillbechecked');
